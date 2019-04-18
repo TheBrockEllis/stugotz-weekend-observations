@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Provokateur';
+  src: url('Provokateur.eot');
+  src: url('Provokateur.eot?#iefix') format('embedded-opentype'),
+       url('Provokateur.svg#ProvokateurDEMO') format('svg'),
+       url('Provokateur.ttf') format('truetype'),
+       url('Provokateur.woff') format('woff'),
+       url('Provokateur.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

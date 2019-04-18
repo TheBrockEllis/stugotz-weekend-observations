@@ -1,0 +1,85 @@
+<html>
+  <head>
+    <meta charset='utf-8' />
+    <title>Stugotz</title>
+    <link rel='stylesheet' type='text/css' href='./fonts/font.css' />
+    <style>
+      body {
+        font-family: 'Provokateur', sans-serif;
+        background-color: #078848;
+      }
+
+      main {
+        max-width: 600px;
+        margin: auto;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      nav {
+        text-align: center;
+      }
+
+      #banner {
+        display: block;
+        margin: auto;
+        max-height: 300px;
+      }
+
+      textarea {
+        width: 100%;
+        height: 200px;
+        padding: 1rem;
+        margin: 1rem 0;
+      }
+
+      button {
+        padding: 15px;
+        background-color: inherit;
+        border: 3px solid red;
+        border-radius: 4px;
+        font-family: 'Provokateur', sans-serif;
+        font-size: 2em;
+      }
+
+      #stopBtn {
+        display: none;
+      }
+
+      table {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <img src='background.jpg' id='banner' />
+      
+      <h1>Weekend Observation Creator!</h1>
+
+      <nav>
+        <button id='recordBtn'>Record</button>
+        <button id='stopBtn'>Stop</button>
+        <button id='beepBtn'>Beep</button>
+      </nav>
+      
+      <textarea></textarea>
+      
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Controls</th>
+            <th>Delete</th>
+          </tr>
+        </thead>
+        <tbody id='soundClips'>
+        </tbody>
+      </table>
+
+      </main>
+    <script src='script.js'></script>
+  </body>
+</html>
